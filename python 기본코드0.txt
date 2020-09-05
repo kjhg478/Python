@@ -1,0 +1,47 @@
+﻿print("그냥", end=' ')
+print("%0.6f"%1.11111111111)
+print("이것은 {0} {1}법입니다.".format("포멧","프린트"))
+//
+print(len(arr))
+
+for i in arr:
+    pirnt(i)
+//
+arr1 = "asdasdasd"
+arr2 = "axcaxcax"
+
+for i in arr1:
+    for j in arr2:
+        if i == j:
+            print(j)
+
+
+
+
+print(Hello\nWorld) 문단바꾸기
+print(\’ \“) << 작은ᄄᆞ옴표와 큰따옴표를 출력
+ex) print("'Hello'") print(‘\’Hello\’‘), print(’“Hello World”’) print("\"Hello World\"")
+
+//
+
+“!@#$%^&*()” 출력방법
+print('\"!@#$%^&*()\"')
+
+//
+
+"C:\Download\hello.cpp" 출력방법(“”포함)
+print('"C:\\Download\\hello.cpp"')
+
+//
+
+유니코드를 이용하기 때문에 한글을 출력할 때와 같이 소스 제출 페이지 상단에 있는 구문을 코드에 넣어 주어야 합니다.
+import io, sys
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf8')
+
+그리고 파이썬에서 print는 자동으로 개행까지 해 주기 때문에 끝에 \n이 필요 없습니다.
+
+//
+
+i = float(input())
+print("%f" %i)
+
